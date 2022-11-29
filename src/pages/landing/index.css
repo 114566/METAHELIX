@@ -1,0 +1,1137 @@
+body {
+    background: linear-gradient(197.23deg, #371C48 0.55%, #10107B 10.04%, #52146F 66.06%, #19198D 80.16%);
+    overflow-x: hidden !important;
+}
+
+/*header part*/
+.header-logo {
+    color: black;
+}
+
+.header-navbar {
+    background: #FFFFFF;
+    border-radius: 70px;
+    position: relative;
+}
+
+
+.header-navbar-mobile {
+    background: #FFFFFF;
+    border-radius: 26px;
+    display: none;
+    position: relative;
+}
+
+/*footer part*/
+.landing-page-footer {
+    background: rgba(17, 17, 17, 1);
+    width: 100%;
+    z-index: 999 !important;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.footer-hr {
+    border: 1px solid white;
+    margin: 0px;
+}
+
+.footer-bottom-text {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0px !important;
+    border: none;
+    line-height: 20px;
+}
+
+.navbar-section * {
+    color: black !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: black !important;
+    height: 3px !important;
+    margin-bottom: 0px !important;
+}
+
+.Mui-selected {
+    font-weight: 999 !important;
+}
+
+.MuiButtonBase-root {
+    padding: 23px !important;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+.font-type-1 {
+    font-family: DM Sans;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: white;
+}
+
+.langingPageButton {
+    background: #FFFFFF;
+    border-radius: 32px;
+    border: 0px;
+    min-width: 240px;
+    color: black;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.langingPageButton:hover {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: white;
+    transition: 0.5s;
+}
+
+.landingpage-Card {
+    margin-top: 230px;
+    border-radius: 20px;
+    box-shadow: 0px 28px 23px 11px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1); */
+}
+
+.landingpage-Card1 {
+    border-radius: 20px;
+    box-shadow: 0px 28px 23px 11px rgba(0, 0, 0, 0.15);
+}
+
+.landingCard-text {
+    display: inline-block;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    /* or 120% */
+    letter-spacing: -0.01em;
+    /* Neutrals/8 */
+    color: #FCFCFD;
+}
+
+.Landingcard-body {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.LandingCardFixedImage {
+    position: absolute;
+    top: -150px;
+    left: 40%;
+    width: 20%;
+}
+
+.carouselCard {
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+    box-shadow: 0px 15px 15px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.carouselCard-title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    color: #FFFFFF;
+}
+
+.carouselCard-content {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.carouselCard-header {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.carouselCard-header1 {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.carousel-header-logo {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.ArrowCircleLeftIcon {
+    width: 1.3em !important;
+    height: 1.3em !important;
+    cursor: pointer;
+}
+
+.ArrowCircleRightIcon {
+    width: 1.3em !important;
+    height: 1.3em !important;
+    cursor: pointer;
+}
+
+.landingPageCard1-button {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border-radius: 32px;
+    padding: 5px 30px;
+    border: none;
+}
+
+.landingPageCard1-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: 0.4s;
+}
+
+.tokenText {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.tokenText1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tokenText2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.tokenText3 {
+    z-index: 1000;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.landingTokenomics {
+    background-color: rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 28px 23px 11px rgba(0, 0, 0, 0.15);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+    border-radius: 20px;
+}
+
+.piecharttext {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: white;
+    /* or 112% */
+    text-align: center;
+    display: inline-block;
+}
+
+.piecharttext1 {
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 112% */
+    text-align: center;
+}
+
+.ArtCard {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 4px 23px 11px rgba(0, 0, 0, 0.5);
+}
+
+.card-section-bg {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 28px 23px 11px rgba(0, 0, 0, 0.15);
+}
+
+.LandingHelixMap-icon-text {
+    display: inline-block;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+    color: #FFFFFF;
+}
+
+.react-multi-carousel-list {
+    z-index: 10;
+}
+
+
+.landing-title {
+    font-size: 110px;
+    font-weight: 700;
+    color: white;
+}
+
+.react-multiple-carousel__arrow * {
+    z-index: 99999 !important;
+}
+
+.react-multiple-carousel__arrow--right {
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    left: calc(95%) !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.react-multiple-carousel__arrow--left {
+    position: absolute;
+    top: 0px;
+    left: calc(90%) !important;
+    color: black !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+
+button {
+    cursor: pointer !important;
+}
+
+.landingPageHelixMap-fixedImage {
+    position: absolute;
+    right: 0px;
+    bottom: 750px;
+    z-index: 10;
+}
+
+
+.bars {
+    cursor: pointer;
+}
+
+.mobile-icon-box {
+    display: none;
+}
+
+@media screen and (min-width: 1401px) {
+    .landingPageHelixMap-fixedImage {
+        position: absolute;
+        right: 0px;
+        bottom: 750px;
+        z-index: 10;
+    }
+
+    .LandingPage-effectIamge3 {
+        bottom: 730px !important;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .landingPageHelixMap-fixedImage {
+        position: absolute;
+        right: 0px;
+        bottom: 630px;
+        z-index: 10;
+    }
+
+    .LandingCardFixedImage {
+        top: -115px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .landingpage-Card {
+        margin-top: 200px;
+        border-radius: 20px;
+        box-shadow: 0px 28px 23px 11px rgba(0, 0, 0, 0.15);
+        /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1); */
+    }
+
+    .landingPageHelixMap-fixedImage {
+        position: absolute;
+        right: 0px;
+        bottom: 500px !important;
+        z-index: 10;
+    }
+
+    .m-10 {
+        margin-top: 20px !important;
+    }
+
+    .mt-5 {
+        margin-top: 10px !important;
+    }
+
+    .effect1-landingPage {
+        display: none;
+    }
+
+    .header-desktop {
+        display: none;
+    }
+
+    .mobile-navbar1 {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #111631;
+        cursor: pointer;
+        border-bottom: 4px solid white;
+    }
+
+    .mobile-navbar1:hover {
+        max-width: 70px;
+        margin: auto;
+        border-bottom: 4px solid black;
+    }
+
+    .mobile-navbar2 {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #111631;
+        cursor: pointer;
+        border-bottom: 4px solid white;
+    }
+
+    .mobile-navbar2:hover {
+        max-width: 150px;
+        margin: auto;
+        border-bottom: 4px solid black;
+    }
+
+
+    .mobile-navbar3 {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #111631;
+        cursor: pointer;
+        border-bottom: 4px solid white;
+    }
+
+    .mobile-navbar3:hover {
+        max-width: 120px;
+        margin: auto;
+        border-bottom: 4px solid black;
+    }
+
+    .mobile-navbar4 {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #111631;
+        cursor: pointer;
+        border-bottom: 4px solid white;
+    }
+
+    .mobile-navbar4:hover {
+        max-width: 100px;
+        margin: auto;
+        border-bottom: 4px solid black;
+    }
+
+    .header-navbar-mobile {
+        display: block;
+    }
+
+    .mobile-icon-box {
+        display: block !important;
+        margin: auto;
+        background-color: white !important;
+        padding: 10px 5px;
+        max-width: 150px;
+        text-align: center;
+    }
+
+    .LandingCardFixedImage {
+        position: absolute;
+        top: -160px;
+        left: 35%;
+        width: 30%;
+    }
+}
+
+.metahelixSection {
+    display: block;
+}
+
+.responsive-hide {
+    display: block;
+}
+
+.responsive-show {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .carousel-header-logo {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .LandingPage-effectIamge2 {
+        height: 508px;
+        bottom: -438px !important;
+    }
+
+    .LandingPage-effectIamge3 {
+        display: none !important;
+    }
+
+    .carouselCard-card {
+        margin-bottom: 30px;
+    }
+
+    .responsive-hide {
+        display: none !important;
+    }
+
+    .responsive-show {
+        display: block !important;
+    }
+
+    .LandingCardFixedImage {
+        position: absolute;
+        top: -110px;
+        left: 35%;
+        width: 30%;
+    }
+
+    .metahelixSection {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    .carouselCard {
+        border-radius: 20px;
+        mix-blend-mode: multiply;
+        border-radius: 20px;
+    }
+
+    .carousel-section-responsive {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .carousel-section-table * {
+        text-align: center !important;
+    }
+
+    .carousel-button-group {
+        display: none;
+    }
+
+    .table-hide {
+        display: none;
+    }
+
+    .table-show {
+        display: block !important;
+    }
+
+    .LandingPage-effectIamge1 {
+        bottom: -270px !important;
+    }
+
+    .tokenText2 {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 48px;
+        /* identical to box height, or 133% */
+
+        text-align: left;
+
+        color: #FFFFFF;
+    }
+
+    .landingPageHelixMap-fixedImage {
+        position: absolute;
+        display: none;
+        right: 0px;
+        bottom: 630px;
+        z-index: 10;
+    }
+
+    .tokenText1 {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height, or 133% */
+        text-align: left;
+        color: #FFFFFF;
+    }
+}
+
+.table-show {
+    display: none;
+}
+
+.carousel-section-responsive {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.table-mode-responsive {
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-close {
+    display: block;
+}
+
+.react-multi-carousel-track {
+    margin-top: 100px !important;
+}
+
+@media screen and (max-width: 800px) {
+    .landing-title {
+        font-size: 80px !important;
+        font-weight: 700;
+        color: white;
+    }
+
+    .table-mode-hide {
+        display: none;
+    }
+
+    .table-mode-responsive {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .table-mode-responsive-img {
+        margin-bottom: 15px;
+    }
+
+    .landingpage-Card {
+        margin-top: 160px;
+        border-radius: 20px;
+        box-shadow: 0px 28px 23px 11px rgba(0, 0, 0, 0.15);
+        /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1); */
+    }
+
+    .LandingCardFixedImage {
+        position: absolute;
+        top: -120px;
+        left: 30%;
+        width: 40%;
+    }
+
+    .mobile-view {
+        display: block !important;
+    }
+
+    .mobile-close {
+        display: none !important;
+    }
+
+    .landingPageHelixMap-fixedImage {
+        position: absolute;
+        display: block !important;
+        right: 0px;
+        bottom: 720px !important;
+        z-index: 10;
+        height: 275px;
+    }
+
+
+}
+
+.mobile-view {
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .landing-title {
+        font-size: 60px !important;
+        font-weight: 700;
+        color: white;
+    }
+
+    .mt-10 {
+        margin-top: 30px !important;
+    }
+
+    .landingPageHelixMap-fixedImage {
+        position: absolute;
+        right: 0px;
+        bottom: 630px;
+        z-index: 10;
+    }
+
+    .LandingCardFixedImage {
+        position: absolute;
+        top: -80px;
+        left: 30%;
+        width: 40%;
+    }
+
+    .carousel-mobile {
+        margin-bottom: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .landing-title {
+        font-size: 37px !important;
+        font-weight: 700;
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.donut {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.donut-default {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.donut-white {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background: #fff;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.donut-line {
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.donut-text {
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.donut-other {
+    top: 20px;
+    left: 20px;
+    width: 162px;
+    height: 162px;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.donut-text span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Text Color */
+
+    color: #454459;
+}
+
+/* ============ instalment 1 ==========*/
+
+.instalment1 .donut-case {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-clip: border-box;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.instalment1 .donut-case::before {
+    content: "";
+    clip: rect(0 200px 100px 0);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(180deg);
+    background: #031f31;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.instalment1 .donut-case::after {
+    content: "";
+    clip: rect(0 100px 200px 0);
+    -webkit-transform: rotate(327.6deg);
+    transform: rotate(360deg);
+    background: #031f31;
+    position: absolute;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.instalment1 .donut-line::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    background: #fff;
+    z-index: 2;
+}
+
+.instalment1 .donut-line::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.instalment2 .donut-case {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-clip: border-box;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.instalment2 .donut-case::before {
+    content: "";
+    clip: rect(0 200px 100px 0);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(400deg);
+    background: #031f31;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.instalment2 .donut-case::after {
+    content: "";
+    clip: rect(0 100px 200px 0);
+    -webkit-transform: rotate(327.6deg);
+    transform: rotate(360deg);
+    background: #031f31;
+    position: absolute;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.instalment2 .donut-line::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    background: #fff;
+    z-index: 2;
+}
+
+.instalment2 .donut-line::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    z-index: 2;
+}
+
+
+
+
+.instalment3 .donut-case {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-clip: border-box;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.instalment3 .donut-case::before {
+    content: "";
+    clip: rect(0 200px 100px 0);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(400deg);
+    background: #031f31;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.instalment3 .donut-case::after {
+    content: "";
+    clip: rect(0 100px 200px 0);
+    -webkit-transform: rotate(327.6deg);
+    transform: rotate(325deg);
+    background: #031f31;
+    position: absolute;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.instalment3 .donut-line::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    background: #fff;
+    z-index: 2;
+}
+
+.instalment3 .donut-line::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    z-index: 2;
+}
+
+#imageart1:hover .artimagebg1 {
+    border-radius: 50% !important;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#imageart2:hover .artimagebg2 {
+    border-radius: 50% !important;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#imageart3:hover .artimagebg3 {
+    border-radius: 50% !important;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#imageart4:hover .artimagebg4 {
+    border-radius: 50% !important;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#imageart5:hover .artimagebg5 {
+    border-radius: 50% !important;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#imageart6:hover .artimagebg6 {
+    border-radius: 50% !important;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.1);
+}
