@@ -1,3 +1,12 @@
+body {
+  font-family: 'DM Sans';
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  text-transform: none !important;
+  display: block;
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +41,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -6,6 +6,7 @@ body {
 /*header part*/
 .header-logo {
     color: black;
+    -webkit-text-fill-color: 'transparent' !important;
 }
 
 .header-navbar {
@@ -369,6 +370,16 @@ button {
     display: none;
 }
 
+.HelixMapSection1 {
+    display: none;
+}
+
+@media screen and (min-width: 1800px) {
+    .HelixMapSection1 {
+        display: block !important;
+    }
+}
+
 @media screen and (min-width: 1401px) {
     .landingPageHelixMap-fixedImage {
         position: absolute;
@@ -378,7 +389,7 @@ button {
     }
 
     .LandingPage-effectIamge3 {
-        bottom: 730px !important;
+        bottom: 780px !important;
     }
 }
 
@@ -388,6 +399,10 @@ button {
         right: 0px;
         bottom: 630px;
         z-index: 10;
+    }
+
+    .LandingPage-effectIamge3 {
+        bottom: 680px !important;
     }
 
     .LandingCardFixedImage {
@@ -666,6 +681,10 @@ button {
         font-size: 80px !important;
         font-weight: 700;
         color: white;
+    }
+
+    .font-type-1 {
+        font-size: 28px;
     }
 
     .table-mode-hide {
@@ -1134,4 +1153,55 @@ button {
     border-radius: 50% !important;
     z-index: -1;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+
+.font-type-helix-1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 125% */
+    color: #FFFFFF;
+}
+
+.font-type-helix-2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 17px;
+    line-height: 30px;
+    /* or 125% */
+    color: #FFFFFF;
+}
+
+.metahelixCardFirst {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.metahelixCardSecond {
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-helix {
+    z-index: 999;
+}
+
+.card-helix:hover {
+    cursor: pointer;
+}
+
+.card-helix:hover .metahelixCardFirst {
+    background-color: rgba(226, 116, 12, 0.1) !important;
+}
+
+.card-helix:hover .metahelixCardSecond {
+    background: rgba(226, 116, 12, 0.1) !important;
 }

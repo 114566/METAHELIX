@@ -19,6 +19,7 @@ import Holographic3Dshape2 from '../../images/Holographic 3D shape 55 1.png';
 import Landinggraphic3D2mobile from '../../images/Holographic 3D shape 80 1.png';
 import Holographic3Dmobile from '../../images/Holographi3D-mobilepng.png';
 import landingPageLogo from '../../images/landingPage-logo.png';
+import bgimagetext from '../../images/bg_text.png'
 const LandingPage = () => {
     return (
         <React.Fragment>
@@ -30,9 +31,10 @@ const LandingPage = () => {
                 <div className='content'>
                     <div className='container'>
                         <div className='row text-center mt-5'>
-                            <div className='col-lg-7 m-auto' style={{ position: 'relative' }}>
-                                <img src={landingPageLogo} className='mt-10' alt='png' width='100%' />
+                            <div className='col-lg-8 offset-lg-2' style={{ 'position': 'relative' }}>
+                                <img src={landingPageLogo} style={{marginTop : '60px'}} alt='png' width='100%'/>
                             </div>
+
                         </div>
                         <div className='row text-center mt-4'>
                             <span className='font-type-1'>IS COMING TO ETHEREUM</span>

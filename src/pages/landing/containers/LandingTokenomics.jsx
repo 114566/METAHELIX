@@ -1,6 +1,5 @@
 import React from 'react';
 import Vector from '../../../images/Vector.png';
-import piechart from '../../../images/piechart.jpg';
 import { useState } from 'react';
 
 
