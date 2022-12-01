@@ -11,6 +11,7 @@ import helixMapIcon6 from '../../../images/helixMapicon6.png';
 import Connector1 from '../../../images/Connector1.png';
 import Connector2 from '../../../images/Connector2.png';
 import Connector3 from '../../../images/Connector3.png';
+import Connectormobile from '../../../images/@Connector-mobile.png';
 const LandingPageHelixMap = () => {
 
     return (
@@ -69,7 +70,7 @@ const LandingPageHelixMap = () => {
 
                 </div><div className='responsive-show'>
                     <div className='row'>
-                        <div className='col-lg-3 card-helix'>
+                        <div className='col-lg-3 card-helix mb-4' style={{ position: 'relative' }}>
                             <div className='d-flex'>
                                 <div className='bg-white px-4 metahelixCardFirst' style={{ padding: '35px' }}>
                                     <img src={helixMapIcon} alt='png' />
@@ -79,8 +80,9 @@ const LandingPageHelixMap = () => {
                                     <span className='font-type-helix-2'>ETH Collection</span>
                                 </div>
                             </div>
+                            <img src={Connectormobile} alt='png' className='' style={{ position: 'absolute', left: '50%', 'bottom': '-50px', height: '50px' }} />
                         </div>
-                        <div className='col-lg-3 card-helix mt-4' >
+                        <div className='col-lg-3 card-helix my-4' style={{ position: 'relative' }}>
                             <div className='d-flex'>
                                 <div className='bg-white px-4 metahelixCardFirst' style={{ padding: '35px' }}>
                                     <img src={helixMapIcon2} alt='png' />
@@ -90,8 +92,9 @@ const LandingPageHelixMap = () => {
                                     <span className='font-type-helix-2'>Partnerships</span>
                                 </div>
                             </div>
+                            <img src={Connectormobile} alt='png' className='' style={{ position: 'absolute', left: '50%', 'bottom': '-50px', height: '50px' }} />
                         </div>
-                        <div className='col-lg-3 card-helix mt-4' >
+                        <div className='col-lg-3 card-helix my-4' style={{ position: 'relative' }} >
                             <div className='d-flex'>
                                 <div className='bg-white px-4 metahelixCardFirst' style={{ padding: '35px' }}>
                                     <img src={helixMapIcon3} alt='png' />
@@ -101,9 +104,10 @@ const LandingPageHelixMap = () => {
                                     <span className='font-type-helix-2'>Product Launch</span>
                                 </div>
                             </div>
+                            <img src={Connectormobile} alt='png' className='' style={{ position: 'absolute', left: '50%', 'bottom': '-50px', height: '50px' }} />
                         </div>
 
-                        <div className='col-lg-3 card-helix mt-4'>
+                        <div className='col-lg-3 card-helix my-4' style={{ position: 'relative' }}>
                             <div className='d-flex'>
                                 <div className='bg-white px-4 metahelixCardFirst' style={{ padding: '35px' }}>
                                     <img src={helixMapIcon4} alt='png' />
@@ -113,8 +117,9 @@ const LandingPageHelixMap = () => {
                                     <span className='font-type-helix-2'>Product Launch</span>
                                 </div>
                             </div>
+                            <img src={Connectormobile} alt='png' className='' style={{ position: 'absolute', left: '50%', 'bottom': '-50px', height: '50px' }} />
                         </div>
-                        <div className='col-lg-3 card-helix mt-4'>
+                        <div className='col-lg-3 card-helix my-4' style={{ position: 'relative' }}>
                             <div className='d-flex'>
                                 <div className='bg-white px-4 metahelixCardFirst' style={{ padding: '35px' }}>
                                     <img src={helixMapIcon5} alt='png' />
@@ -124,8 +129,9 @@ const LandingPageHelixMap = () => {
                                     <span className='font-type-helix-2'>Product Launch</span>
                                 </div>
                             </div>
+                            <img src={Connectormobile} alt='png' className='' style={{ position: 'absolute', left: '50%', 'bottom': '-50px', height: '50px' }} />
                         </div>
-                        <div className='col-lg-3 card-helix mt-4'>
+                        <div className='col-lg-3 card-helix mt-4' style={{ position: 'relative' }}>
                             <div className='d-flex'>
                                 <div className='bg-white px-4 metahelixCardFirst' style={{ padding: '35px' }}>
                                     <img src={helixMapIcon6} alt='png' />

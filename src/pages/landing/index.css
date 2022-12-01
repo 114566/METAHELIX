@@ -84,7 +84,7 @@ body {
 }
 
 .langingPageButton {
-    background: #FFFFFF;
+    background: grey;
     border-radius: 32px;
     border: 0px;
     min-width: 240px;
@@ -687,7 +687,6 @@ button {
         padding-top: 0px !important;
         margin-top: 0px !important;
         position: static;
-        cursor: pointer;
         margin-bottom: 0px !important;
     }
 
@@ -777,7 +776,6 @@ button {
         margin-top: 0px !important;
         padding-bottom: 0px !important;
         position: static;
-        cursor: pointer;
         margin-bottom: 0px !important;
     }
 
@@ -944,7 +942,7 @@ button {
     content: "";
     clip: rect(0 100px 200px 0);
     -webkit-transform: rotate(327.6deg);
-    transform: rotate(360deg);
+    transform: rotate(450deg);
     background: #031f31;
     position: absolute;
     opacity: 0.9;
@@ -987,7 +985,6 @@ button {
 
 
 
-
 .instalment2 .donut-case {
     width: 100%;
     height: 100%;
@@ -1002,11 +999,10 @@ button {
 
 .instalment2 .donut-case::before {
     content: "";
-    clip: rect(0 200px 100px 0);
-    -webkit-transform: rotate(90deg);
-    transform: rotate(400deg);
+    clip: rect(0 100px 100px 0);
+    transform: rotate(0deg);
     background: #031f31;
-    opacity: 0.9;
+    opacity: 1;
     position: absolute;
     top: 0;
     left: 0;
@@ -1014,14 +1010,14 @@ button {
     height: 100%;
 }
 
+
 .instalment2 .donut-case::after {
     content: "";
-    clip: rect(0 100px 200px 0);
-    -webkit-transform: rotate(327.6deg);
-    transform: rotate(360deg);
+    clip: rect(0 200px 0px 0);
+    transform: rotate(30deg);
     background: #031f31;
     position: absolute;
-    opacity: 0.9;
+    opacity: 1;
     top: 0;
     left: 0;
     width: 100%;
@@ -1054,6 +1050,8 @@ button {
 
 
 
+
+
 .instalment3 .donut-case {
     width: 100%;
     height: 100%;
@@ -1061,6 +1059,7 @@ button {
     position: absolute;
     top: 0;
     left: 0;
+    background: transparent;
     background-clip: border-box;
     overflow: hidden;
     z-index: 2;
@@ -1068,11 +1067,10 @@ button {
 
 .instalment3 .donut-case::before {
     content: "";
-    clip: rect(0 200px 100px 0);
-    -webkit-transform: rotate(90deg);
-    transform: rotate(400deg);
+    clip: rect(0 0px 100px 0);
+    transform: rotate(300deg);
     background: #031f31;
-    opacity: 0.9;
+    opacity: 1;
     position: absolute;
     top: 0;
     left: 0;
@@ -1082,12 +1080,10 @@ button {
 
 .instalment3 .donut-case::after {
     content: "";
-    clip: rect(0 100px 200px 0);
-    -webkit-transform: rotate(327.6deg);
-    transform: rotate(325deg);
+    clip: rect(0 100px 100px 0);
     background: #031f31;
     position: absolute;
-    opacity: 0.9;
+    opacity: 1;
     top: 0;
     left: 0;
     width: 100%;
@@ -1106,6 +1102,74 @@ button {
 }
 
 .instalment3 .donut-line::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+.instalment4 .donut-case {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-clip: border-box;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.instalment4 .donut-case::before {
+    content: "";
+    clip: rect(0 200px 100px 0);
+    transform: rotate(300deg);
+    background: #031f31;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.instalment4 .donut-case::after {
+    content: "";
+    clip: rect(0 200px 100px 0);
+    transform: rotate(90deg);
+    background: #031f31;
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.instalment4 .donut-line::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    background: #fff;
+    z-index: 2;
+}
+
+.instalment4 .donut-line::after {
     content: "";
     width: 100%;
     height: 1px;
@@ -1245,5 +1309,17 @@ button {
     color: white;
     position: static;
     margin-top: 100px !important;
-    cursor: pointer;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    font-family: 'DM Sans' !important;
+    font-size: 16px !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover {
+    color: #10107B !important;
+}
+
+.piecharttext1 {
+    height: 100px;
 }

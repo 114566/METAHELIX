@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-
 //importing the images
 import footerImageLogo from '../../images/META HELIX.png';
 import divider from '../../images/divider.png';
@@ -26,10 +25,10 @@ const Footer = () => {
                                 </div>
                                 <div className='col-4 m-auto text-start responsive-hide'>
                                     <div className='inline-block me-3'>
-                                        <img src={discordIcon} alt='img' />
+                                        <a href='https://discord.gg/metahelix' target='_blank'><img src={discordIcon} alt='img' /></a>
                                     </div>
                                     <div className='inline-block col-mg-ms-3'>
-                                        <img src={twitter} alt='img' />
+                                        <a href='https://twitter.com/metahelixio' target='_blank'><img src={twitter} alt='img' /></a>
                                     </div>
                                 </div>
                                 <div className='col-4 m-auto text-start responsive-show text-center'>

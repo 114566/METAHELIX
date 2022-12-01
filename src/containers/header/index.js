@@ -9,6 +9,7 @@ import twitterblack from '../../images/twitter-black.png';
 import Logo from '../../images/logo.png';
 import bars from '../../images/bars.png';
 import closeButton from '../../images/menu_open.png';
+import { Link } from 'react-router-dom';
 const Header = () => {
     const [value, setValue] = React.useState(0);
     const [navbarStatus, setNavbar] = React.useState(false);
@@ -44,8 +45,8 @@ const Header = () => {
                     </div>
                     <div className='col-lg-3 text-end m-auto'>
                         <div className='me-5'>
-                            <img src={discordIconblack} alt='png' className='inline-block mx-3' />
-                            <img src={twitterblack} alt='png' className='inline-block me-2' />
+                            <a href='https://discord.gg/metahelix' target='_blank'><img src={discordIconblack} alt='png' className='inline-block mx-3' /></a>
+                            <a href='https://twitter.com/metahelixio' target='_blank'><img src={twitterblack} alt='png' className='inline-block me-2' /></a>
                         </div>
                     </div>
                 </div>
