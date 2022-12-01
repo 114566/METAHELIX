@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import landingCardIcon1 from '../../../images/icon1.png';
 import LandingPageIcon from '../../../images/VectorBlack.png';
 

@@ -36,7 +36,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
 
     return (
         <React.Fragment>
-            
+
             <div className='mt-10 pb-5' style={{ position: 'relative' }}>
                 <div className='row carousel-section-table' style={{ 'marginBottom': '40px', 'zIndex': '1', 'position': 'absolute', 'width': '100%', top: '0px' }}>
                     <div className='col-lg-1 m-auto text-center'>
@@ -130,8 +130,8 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                         </div>
                     </Carousel>;
                 </div>
-                <div className='table-show' style={{ 'position': 'relative' }}>
-                    <div className='p-0 ' style={{ zIndex: '10', 'boxShadow': '0px 15px 15px 5px rgba(0, 0, 0, 0.15)', 'borderRadius': '20px' }}>
+                <div className='table-show ' style={{ 'position': 'relative' }}><br /><br />
+                    <div className='p-0 ' style={{ zIndex: '10', 'boxShadow': '0px 15px 15px 5px rgba(0, 0, 0, 0.15)', 'borderRadius': '20px', marginTop: '100px' }}>
                         <div className='d-flex justify-content-between px-4 py-5 carouselCard-header'>
                             <div className='carouselCard-title'>Sales, Minting, <br />& Listings Announcers</div>
                             <div>

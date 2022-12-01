@@ -2,8 +2,6 @@ import React from 'react';
 import Footer from '../../containers/footer';
 import Header from '../../containers/header';
 import './index.css';
-
-import LandingPage_text from '../../images/Property 1=Variant2.png';
 import landingBg from '../../images/landing_bg.png';
 import LandingPageIcon from '../../images/Vector.png';
 import LandingPageCard from './containers/LandingPageCard';
@@ -18,8 +16,6 @@ import Holographic3Dshape1 from '../../images/Holographic 3D shape 80 1.png';
 import Holographic3Dshape2 from '../../images/Holographic 3D shape 55 1.png';
 import Landinggraphic3D2mobile from '../../images/Holographic 3D shape 80 1.png';
 import Holographic3Dmobile from '../../images/Holographi3D-mobilepng.png';
-import landingPageLogo from '../../images/landingPage-logo.png';
-import bgimagetext from '../../images/bg_text.png'
 const LandingPage = () => {
     return (
         <React.Fragment>
@@ -31,10 +27,9 @@ const LandingPage = () => {
                 <div className='content'>
                     <div className='container'>
                         <div className='row text-center mt-5'>
-                            <div className='col-lg-8 offset-lg-2' style={{ 'position': 'relative' }}>
-                                <img src={landingPageLogo} style={{marginTop : '60px'}} alt='png' width='100%'/>
+                            <div className='col-lg-8 offset-lg-2 banner__title-box' style={{ 'position': 'relative' }} >
+                                <div className='banner__title'>MetaHelix</div>
                             </div>
-
                         </div>
                         <div className='row text-center mt-4'>
                             <span className='font-type-1'>IS COMING TO ETHEREUM</span>

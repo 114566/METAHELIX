@@ -144,6 +144,11 @@ const LandingPageHelixMap = () => {
                     <img src={Connector2} className='HelixMapSection1' alt='png' style={{ maxWidth: '100px', 'position': 'absolute', right: '838px', top: '295px' }} />
                     <img src={Connector2} className='HelixMapSection1' alt='png' style={{ maxWidth: '100px', 'position': 'absolute', right: '438px', top: '295px' }} />
                     <img src={Connector3} className='HelixMapSection1' alt='png' style={{ maxWidth: '100px', 'position': 'absolute', left: '438px', top: '340px' }} />
+                    <img src={Connector1} className='HelixMapSection2' alt='png' style={{ maxWidth: '90px', 'position': 'absolute', right: '705px', top: '345px' }} />
+                    <img src={Connector1} className='HelixMapSection2' alt='png' style={{ maxWidth: '90px', 'position': 'absolute', right: '375px', top: '340px' }} />
+                    <img src={Connector2} className='HelixMapSection2' alt='png' style={{ maxWidth: '90px', 'position': 'absolute', left: '695px', top: '308px' }} />
+                    <img src={Connector2} className='HelixMapSection2' alt='png' style={{ maxWidth: '90px', 'position': 'absolute', right: '230px', top: '307px' }} />
+                    <img src={Connector3} className='HelixMapSection2' alt='png' style={{ maxWidth: '90px', 'position': 'absolute', left: '230px', top: '345px' }} />
 
                     <div className='col-lg-2' style={{ maxWidth: '300px' }}>
 

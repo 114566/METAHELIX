@@ -11,9 +11,7 @@ import twitter from '../../images/twitter.png';
 const Footer = () => {
     return (
         <React.Fragment>
-
             <div className='landing-page-footer text-center' style={{ position: 'relative' }}>
-
                 <div className=' container py-5 ' >
                     <div className='row py-5'>
                         <div className='col-lg-6 col-sm-12 offset-lg-3 col-md-6 offset-md-3 col-sm-12'>

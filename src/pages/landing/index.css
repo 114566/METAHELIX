@@ -677,10 +677,18 @@ button {
 }
 
 @media screen and (max-width: 800px) {
-    .landing-title {
+    .banner__title {
+        color: white !important;
         font-size: 80px !important;
-        font-weight: 700;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 30px !important;
         color: white;
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        position: static;
+        cursor: pointer;
+        margin-bottom: 0px !important;
     }
 
     .font-type-1 {
@@ -740,11 +748,37 @@ button {
     display: none;
 }
 
+.HelixMapSection2 {
+    display: none;
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+    .HelixMapSection2 {
+        display: block !important;
+    }
+}
+
+
 @media screen and (max-width: 450px) {
     .landing-title {
         font-size: 60px !important;
         font-weight: 700;
         color: white;
+    }
+
+    .banner__title {
+        color: white !important;
+        font-size: 60px !important;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 30px !important;
+        color: white;
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        padding-bottom: 0px !important;
+        position: static;
+        cursor: pointer;
+        margin-bottom: 0px !important;
     }
 
     .mt-10 {
@@ -769,6 +803,30 @@ button {
         margin-bottom: 0px !important;
     }
 
+    .font-type-1 {
+        font-size: 23px !important;
+    }
+
+    .banner__title-box {
+        /* position: relative;
+        z-index: -1; */
+        -webkit-box-pack: center;
+        display: block;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 0px !important;
+        color: red;
+        padding-top: 0px !important;
+        padding-bottom: 20px;
+        transition: background-size 0.5s;
+        text-align: center;
+        background: url('../../images/bg_text1.png');
+        background-position: 50% 50%;
+        -webkit-background-clip: text;
+        background-size: 100%;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -778,66 +836,6 @@ button {
         color: white;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .donut {
     position: relative;
@@ -1155,11 +1153,6 @@ button {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-
-
-
-
-
 .font-type-helix-1 {
     font-family: 'DM Sans';
     font-style: normal;
@@ -1204,4 +1197,53 @@ button {
 
 .card-helix:hover .metahelixCardSecond {
     background: rgba(226, 116, 12, 0.1) !important;
+}
+
+
+.banner__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.banner__title-box {
+    /* position: relative;
+    z-index: -1; */
+    -webkit-box-pack: center;
+    display: block;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: background-size 0.5s;
+    text-align: center;
+    background: url('../../images/bg_text1.png');
+    background-position: 50% 50%;
+    -webkit-background-clip: text;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner__title-box:hover {
+    background-size: 120%;
+}
+
+.banner__title {
+    color: white !important;
+    font-size: 140px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 70px;
+    color: white;
+    position: static;
+    margin-top: 100px !important;
+    cursor: pointer;
 }
