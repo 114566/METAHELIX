@@ -62,7 +62,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                                     <img src={breakingnewsalt1} alt='img' className='mt-3' />
                                 </div>
                             </div>
-                            <div className='bg-white px-4 pt-4 pb-5  carouselCard-content'>
+                            <div className='bg-white px-4 pt-4 pb-5  carouselCard-content' style={{'height' : '300px'}}>
                                 <span>Track multiple collections and announce any sale, live minting, or new listing to your Discord community as soon as they happen.<br /><br />
 
                                     Easily customize the attributes you want to display, descriptions, and more. This module integrates with our Account Verification module to display the owner's @Username, as well as our Rarity module to display ranking on every listing or sale.</span>
@@ -75,7 +75,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                                     <img src={adminpanelsettings} alt='img' className='mt-3' />
                                 </div>
                             </div>
-                            <div className='bg-white px-4 pt-4 pb-5  carouselCard-content'>
+                            <div className='bg-white px-4 pt-4 pb-5  carouselCard-content' style={{'height' : '300px'}}>
                                 <span>Seamlessly integrate role verification into your Discord server in seconds, without waiting for setup, or granting anyone admin permissions to your server.<br /><br />
 
                                     Roles are granted in seconds after user verification, and importantly, removed just as quickly. No more waiting for 12 hours after a transfer for roles to update.</span>
@@ -88,7 +88,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                                     <img src={insights} alt='img' className='mt-3' />
                                 </div>
                             </div>
-                            <div className='bg-white px-4 pt-4 pb-5 carouselCard-content'>
+                            <div className='bg-white px-4 pt-4 pb-5 carouselCard-content' style={{'height' : '300px'}}>
                                 <span>Track the performance of your NFTs across all supported marketplaces in real-time.</span>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                                     <img src={twitterIcon} alt='img' className='mt-3' />
                                 </div>
                             </div>
-                            <div className='bg-white px-4 pt-4 pb-5 carouselCard-content'>
+                            <div className='bg-white px-4 pt-4 pb-5 carouselCard-content' style={{'height' : '300px'}}>
                                 <span>Connect multiple twitter accounts to MetaHelix to easily cross-post any NFT sale, live mint, or new listing announcement directly to Twitter.</span>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                                     <img src={discordRarity} alt='img' className='mt-3' />
                                 </div>
                             </div>
-                            <div className='bg-white px-4 pt-4 pb-5 carouselCard-content'>
+                            <div className='bg-white px-4 pt-4 pb-5 carouselCard-content' style={{'height' : '300px'}}> 
                                 <span>Easily calculate rarity data for your collection with a single click, calculating statistical rarity values for your entire collection with rankings.<br /><br />
                                     Rarity data integrates seamlessly throughout the MetaHelix ecosystem, including our Sales and Listing announcers, and even Account Verification by letting users query NFTs by Discord @Usernames.</span>
                             </div>
@@ -123,7 +123,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                                     <img src={secureWebBased} alt='img' className='mt-3' />
                                 </div>
                             </div>
-                            <div className='bg-white px-4 pt-4 pb-5 carouselCard-content'>
+                            <div className='bg-white px-4 pt-4 pb-5 carouselCard-content' style={{'height' : '300px'}}>
                                 <span>You don't have to contact anyone to add a new module, create a collection, update your marketplace, select an integration, or anything else.<br /><br />
                                     All MetaHelix functionalities are available through a web-based Admin-only control panel with live previews, documentation, and more.</span>
                             </div>
@@ -138,7 +138,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                                 <img src={breakingnewsalt1} alt='img' className='mt-3' />
                             </div>
                         </div>
-                        <div className=' px-4 pt-4 pb-5 carouselCard-content' style={{ 'background': 'white' }}>
+                        <div className=' px-4 pt-4 pb-5 carouselCard-content' style={{ 'background': 'white', 'height' : '300px' }} >
                             <span>Track multiple collections and announce any sale, live minting, or new listing to your Discord community as soon as they happen.<br /><br />
                                 Easily customize the attributes you want to display, descriptions, and more. This module integrates with our Account Verification module to display the owner's @Username, as well as our Rarity module to display ranking on every listing or sale.</span>
                         </div>
@@ -150,7 +150,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                                 <img src={adminpanelsettings} alt='img' className='mt-3' />
                             </div>
                         </div>
-                        <div className='bg-white px-4 pt-4 pb-5  carouselCard-content'>
+                        <div className='bg-white px-4 pt-4 pb-5  carouselCard-content' style={{'height' : '300px'}}>
                             <span>Seamlessly integrate role verification into your Discord server in seconds, without waiting for setup, or granting anyone admin permissions to your server.<br /><br />
 
                                 Roles are granted in seconds after user verification, and importantly, removed just as quickly. No more waiting for 12 hours after a transfer for roles to update.</span>
@@ -163,7 +163,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                                 <img src={insights} alt='img' className='mt-3' />
                             </div>
                         </div>
-                        <div className='bg-white px-4 pt-4 pb-5 carouselCard-content'>
+                        <div className='bg-white px-4 pt-4 pb-5 carouselCard-content ' style={{'height' : '300px'}}>
                             <span>Track the performance of your NFTs across all supported marketplaces in real-time.</span>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                                 <img src={twitterIcon} alt='img' className='mt-3' />
                             </div>
                         </div>
-                        <div className='bg-white px-4 pt-4 pb-5 carouselCard-content'>
+                        <div className='bg-white px-4 pt-4 pb-5 carouselCard-content' style={{'height' : '300px'}}>
                             <span>Connect multiple twitter accounts to MetaHelix to easily cross-post any NFT sale, live mint, or new listing announcement directly to Twitter.</span>
                         </div>
                     </div>
@@ -197,7 +197,7 @@ const LandingCarousel = ({ next, previous, goToSlide, ...rest }) => {
                                 <img src={secureWebBased} alt='img' className='mt-3' />
                             </div>
                         </div>
-                        <div className='bg-white px-4 pt-4 pb-5 carouselCard-content'>
+                        <div className='bg-white px-4 pt-4 pb-5 carouselCard-content' style={{'height' : '300px'}}>
                             <span>You don't have to contact anyone to add a new module, create a collection, update your marketplace, select an integration, or anything else.<br /><br />
                                 All MetaHelix functionalities are available through a web-based Admin-only control panel with live previews, documentation, and more.</span>
                         </div>

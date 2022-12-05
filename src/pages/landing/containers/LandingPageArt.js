@@ -9,7 +9,6 @@ import Artimage5 from '../../../images/art1 (5).gif';
 import Artimage6 from '../../../images/art1 (6).gif';
 import HolographicMobile from '../../../images/HolographicMobile.png';
 const LandingPageArt = ({ next, previous, goToSlide, ...rest }) => {
-
     return (
         <React.Fragment>
             <div className='mt-10'>
@@ -72,7 +71,7 @@ const LandingPageArt = ({ next, previous, goToSlide, ...rest }) => {
                         <div className=' p-4' >
                             <img src={Artimage6} alt='img' className='imageart6 d-block' width='100%' style={{ borderRadius: '20px' }} />
                         </div>
-                        <div className='card-section-bg artimagebg6' style={{ 'width': '100%', 'height': '100%', 'position': 'absolute', 'top': '0px', mixBlendMode : 'darken' }}>
+                        <div className='card-section-bg artimagebg6' style={{ 'width': '100%', 'height': '100%', 'position': 'absolute', 'top': '0px', mixBlendMode: 'darken' }}>
                         </div>
                     </div>
                 </div>
@@ -80,7 +79,7 @@ const LandingPageArt = ({ next, previous, goToSlide, ...rest }) => {
 
             <div className='responsive-show'>
                 <div className='row '>
-                <div className='col-6 mb-2 p-0' id='imageart1' style={{ 'position': 'relative' }}>
+                    <div className='col-6 mb-2 p-0' id='imageart1' style={{ 'position': 'relative' }}>
                         <div className=' p-4' >
                             <img src={Artimage1} alt='img' className='imageart1 d-block' width='100%' style={{ borderRadius: '20px' }} />
                         </div>
@@ -119,7 +118,7 @@ const LandingPageArt = ({ next, previous, goToSlide, ...rest }) => {
                         <div className=' p-4' >
                             <img src={Artimage6} alt='img' className='imageart6 d-block' width='100%' style={{ borderRadius: '20px' }} />
                         </div>
-                        <div className='card-section-bg artimagebg6' style={{ 'width': '100%', 'height': '100%', 'position': 'absolute', 'top': '0px', mixBlendMode : 'darken' }}>
+                        <div className='card-section-bg artimagebg6' style={{ 'width': '100%', 'height': '100%', 'position': 'absolute', 'top': '0px', mixBlendMode: 'darken' }}>
                         </div>
                     </div>
                 </div>

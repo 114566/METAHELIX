@@ -45,8 +45,8 @@ const Header = () => {
                     </div>
                     <div className='col-lg-3 text-end m-auto'>
                         <div className='me-5'>
-                            <a href='https://discord.gg/metahelix' target='_blank'><img src={discordIconblack} alt='png' className='inline-block mx-3' /></a>
-                            <a href='https://twitter.com/metahelixio' target='_blank'><img src={twitterblack} alt='png' className='inline-block me-2' /></a>
+                            <a href='https://discord.gg/metahelix' target='_blank'><i className='fab fa-discord me-2' style={{'font-size':'36px', color : 'black'}}></i></a>
+                            <a href='https://twitter.com/metahelixio' target='_blank'><i className='fab fa-twitter ms-2' style={{'font-size':'36px', 'color' : 'black'}}></i></a>
                         </div>
                     </div>
                 </div>
@@ -87,8 +87,8 @@ const Header = () => {
             </div>
             {
                 navbarStatus == true ? <div style={{ backgroundColor: 'transparent' }} className='header-navbar-mobile mobile-icon-box'>
-                    <img src={discordIconblack} alt='png' className='inline-block mx-3' style={{ 'cursor': 'pointer' }} />
-                    <img src={twitterblack} alt='png' className='inline-block me-2' style={{ 'cursor': 'pointer' }} />
+                    <i className='fab me-2 fa-discord' style={{'font-size':'36px', 'color' : 'black'}}></i>
+                    <i className='fab ms-2 fa-twitter' style={{'font-size':'36px', 'color' : 'black'}}></i>
                 </div> : ''
             }
         </React.Fragment>

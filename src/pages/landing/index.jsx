@@ -69,7 +69,6 @@ const LandingPage = () => {
                             <LandingPageHelixMap />
                             <LandingPageArt />
                         </div>
-
                     </div>
                 </div>
                 {/*landing page footer part*/}

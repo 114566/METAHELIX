@@ -98,12 +98,6 @@ body {
     padding: 15px 0px;
 }
 
-.langingPageButton:hover {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    color: white;
-    transition: 0.5s;
-}
-
 .landingpage-Card {
     margin-top: 230px;
     border-radius: 20px;
@@ -999,7 +993,7 @@ button {
     content: "";
     clip: rect(0 200px 100px 0);
     transform: rotate(300deg);
-    background: rgba(0, 0, 0, 0.9);
+    background: #260a3b;
     opacity: 1;
     position: absolute;
     top: 0;
@@ -1012,7 +1006,7 @@ button {
     content: "";
     clip: rect(0 200px 100px 0);
     transform: rotate(160deg);
-    background: rgba(0, 0, 0, 0.9);
+    background:#260a3b;
     position: absolute;
     opacity: 1;
     top: 0;
@@ -1068,7 +1062,7 @@ button {
     content: "";
     clip: rect(0 200px 100px 0);
     transform: rotate(300deg);
-    background: rgba(0, 0, 0, 0.9);
+    background: #260a3b;
     opacity: 1;
     position: absolute;
     top: 0;
@@ -1081,7 +1075,7 @@ button {
     content: "";
     clip: rect(0 200px 100px 0);
     transform: rotate(130deg);
-    background: rgba(0, 0, 0, 0.9);
+    background: #260a3b;
     position: absolute;
     opacity: 1;
     top: 0;
@@ -1316,10 +1310,32 @@ button {
     font-size: 16px !important;
 }
 
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+
+    border-bottom: 3px solid white !important;
+}
+
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover {
     color: #10107B !important;
+    font-weight: 900;
+    border-bottom: 3px solid #10107B !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    position : relative!important;
 }
 
 .piecharttext1 {
     height: 100px;
+}
+
+.fa-twitter:hover {
+    color: blue !important;
+    cursor: pointer;
+}
+
+.fa-discord:hover {
+    color: blue !important;
+    cursor: pointer;
 }
